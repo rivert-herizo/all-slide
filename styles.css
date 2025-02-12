@@ -12,6 +12,7 @@ body {
     width: 400px;
     height: 250px;
     overflow: hidden;
+    border-radius: 30px;
 }
 
 .carousel-images {
@@ -38,6 +39,12 @@ button {
     border: none;
     padding: 10px;
     cursor: pointer;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .prev {
